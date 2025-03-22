@@ -1,0 +1,2680 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20251.25.0313.2002                               -->
+<workbook original-version='18.1' source-build='2025.1.0 (20251.25.0313.2002)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <AnimationOnByDefault />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <MarkAnimation />
+    <ObjectModelEncapsulateLegacy />
+    <ObjectModelExtractV2 />
+    <ObjectModelTableType />
+    <SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='sns-od - Cleaned' inline='true' name='federated.0y5te4t0lh8nr916dv4ds0n8zaxe' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='sns-od - Cleaned' name='textscan.07vcdks15hfxov14n4xf11scwpa2'>
+            <connection class='textscan' directory='D:/Muhammad Dzaki Dwitama/Documents/GitHub/sns-addiction-online-disinhibition/datasets' filename='sns-od - Cleaned.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <relation connection='textscan.07vcdks15hfxov14n4xf11scwpa2' name='sns-od - Cleaned.csv' table='[sns-od - Cleaned#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='Umur' ordinal='0' />
+            <column datatype='string' name='Domisili' ordinal='1' />
+            <column datatype='string' name='Province' ordinal='2' />
+            <column datatype='integer' name='Jenis Kelamin' ordinal='3' />
+            <column datatype='integer' name='Total Twitter Sekunder' ordinal='4' />
+            <column datatype='string' name='Twitter1' ordinal='5' />
+            <column datatype='string' name='Twitter2' ordinal='6' />
+            <column datatype='string' name='Twitter3' ordinal='7' />
+            <column datatype='string' name='Twitter4' ordinal='8' />
+            <column datatype='string' name='Twitter5' ordinal='9' />
+            <column datatype='string' name='Twitter6' ordinal='10' />
+            <column datatype='integer' name='Private Second Account' ordinal='11' />
+            <column datatype='integer' name='Roleplay Acc' ordinal='12' />
+            <column datatype='integer' name='Fake/Spam' ordinal='13' />
+            <column datatype='integer' name='Alter Acc' ordinal='14' />
+            <column datatype='integer' name='BodySatisfaction' ordinal='15' />
+            <column datatype='integer' name='FamCloseness' ordinal='16' />
+            <column datatype='integer' name='ParentsinMarriage' ordinal='17' />
+            <column datatype='integer' name='LivingApart' ordinal='18' />
+            <column datatype='integer' name='Loneliness' ordinal='19' />
+            <column datatype='integer' name='SExp1' ordinal='20' />
+            <column datatype='integer' name='SExp2' ordinal='21' />
+            <column datatype='integer' name='SExp3' ordinal='22' />
+            <column datatype='integer' name='SExp4' ordinal='23' />
+            <column datatype='integer' name='SExp5' ordinal='24' />
+            <column datatype='integer' name='SExp6' ordinal='25' />
+            <column datatype='integer' name='SExp' ordinal='26' />
+            <column datatype='integer' name='InfSeek1' ordinal='27' />
+            <column datatype='integer' name='InfSeek2' ordinal='28' />
+            <column datatype='integer' name='InfSeek3' ordinal='29' />
+            <column datatype='integer' name='InfSeek4' ordinal='30' />
+            <column datatype='integer' name='InfSeek' ordinal='31' />
+            <column datatype='integer' name='Soc1' ordinal='32' />
+            <column datatype='integer' name='Soc2' ordinal='33' />
+            <column datatype='integer' name='Soc3' ordinal='34' />
+            <column datatype='integer' name='Soc4' ordinal='35' />
+            <column datatype='integer' name='Soc' ordinal='36' />
+            <column datatype='integer' name='Div1' ordinal='37' />
+            <column datatype='integer' name='Div2' ordinal='38' />
+            <column datatype='integer' name='Div' ordinal='39' />
+            <column datatype='integer' name='UG_TOT' ordinal='40' />
+            <column datatype='integer' name='DA1' ordinal='41' />
+            <column datatype='integer' name='DA2' ordinal='42' />
+            <column datatype='integer' name='DA3' ordinal='43' />
+            <column datatype='integer' name='DA4' ordinal='44' />
+            <column datatype='integer' name='DA_OD' ordinal='45' />
+            <column datatype='integer' name='IN1' ordinal='46' />
+            <column datatype='integer' name='IN2' ordinal='47' />
+            <column datatype='integer' name='IN3' ordinal='48' />
+            <column datatype='integer' name='IN4' ordinal='49' />
+            <column datatype='integer' name='IN5' ordinal='50' />
+            <column datatype='integer' name='IN_OD' ordinal='51' />
+            <column datatype='integer' name='AS1' ordinal='52' />
+            <column datatype='integer' name='AS2' ordinal='53' />
+            <column datatype='integer' name='AS3' ordinal='54' />
+            <column datatype='integer' name='AS_OD' ordinal='55' />
+            <column datatype='integer' name='SI1' ordinal='56' />
+            <column datatype='integer' name='SI2' ordinal='57' />
+            <column datatype='integer' name='SI3' ordinal='58' />
+            <column datatype='integer' name='SI_OD' ordinal='59' />
+            <column datatype='integer' name='DI1' ordinal='60' />
+            <column datatype='integer' name='DI2' ordinal='61' />
+            <column datatype='integer' name='DI3' ordinal='62' />
+            <column datatype='integer' name='DI4' ordinal='63' />
+            <column datatype='integer' name='DI_OD' ordinal='64' />
+            <column datatype='integer' name='MA1' ordinal='65' />
+            <column datatype='integer' name='MA2' ordinal='66' />
+            <column datatype='integer' name='MA3' ordinal='67' />
+            <column datatype='integer' name='MA4' ordinal='68' />
+            <column datatype='integer' name='MA_OD' ordinal='69' />
+            <column datatype='integer' name='OD_TOT' ordinal='70' />
+            <column datatype='integer' name='SNS1' ordinal='71' />
+            <column datatype='integer' name='SNS2' ordinal='72' />
+            <column datatype='integer' name='SNS3' ordinal='73' />
+            <column datatype='integer' name='SNS4' ordinal='74' />
+            <column datatype='integer' name='SNS5' ordinal='75' />
+            <column datatype='integer' name='SNS6' ordinal='76' />
+            <column datatype='integer' name='SNS_TOT' ordinal='77' />
+            <column datatype='string' name='F79' ordinal='78' />
+            <column datatype='string' name='F80' ordinal='79' />
+            <column datatype='string' name='F81' ordinal='80' />
+          </columns>
+        </relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Umur</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Umur]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Umur</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Domisili</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Domisili]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Domisili</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Province</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Province]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Province</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Jenis Kelamin</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Jenis Kelamin]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Jenis Kelamin</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Total Twitter Sekunder</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Total Twitter Sekunder]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Total Twitter Sekunder</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter1</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter1</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter2</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter2</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter3</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter3</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter4</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter4</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter5</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter5]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter5</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Twitter6</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Twitter6]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Twitter6</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Private Second Account</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Private Second Account]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Private Second Account</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Roleplay Acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Roleplay Acc]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Roleplay Acc</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Fake/Spam</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Fake/Spam]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Fake/Spam</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Alter Acc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Alter Acc]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Alter Acc</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BodySatisfaction</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[BodySatisfaction]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>BodySatisfaction</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>FamCloseness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[FamCloseness]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>FamCloseness</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ParentsinMarriage</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ParentsinMarriage]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>ParentsinMarriage</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LivingApart</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LivingApart]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>LivingApart</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Loneliness</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Loneliness]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Loneliness</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp1</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp2</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp3</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp4</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp5]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp5</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp6]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp6</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SExp</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SExp]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SExp</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InfSeek1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InfSeek1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>InfSeek1</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InfSeek2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InfSeek2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>InfSeek2</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InfSeek3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InfSeek3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>InfSeek3</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InfSeek4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InfSeek4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>InfSeek4</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InfSeek</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InfSeek]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>InfSeek</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soc1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Soc1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Soc1</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soc2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Soc2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Soc2</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soc3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Soc3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Soc3</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soc4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Soc4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Soc4</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Soc</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Soc]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Soc</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Div1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Div1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Div1</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Div2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Div2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Div2</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Div</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Div]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>Div</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UG_TOT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UG_TOT]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>UG_TOT</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DA1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DA1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DA1</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DA2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DA2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DA2</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DA3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DA3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DA3</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DA4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DA4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DA4</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DA_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DA_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DA_OD</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN1</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN2</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN3</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN4</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN5]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN5</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IN_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[IN_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>IN_OD</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AS1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AS1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>AS1</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AS2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AS2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>AS2</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AS3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AS3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>AS3</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>AS_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[AS_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>AS_OD</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SI1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SI1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SI1</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SI2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SI2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SI2</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SI3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SI3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SI3</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SI_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SI_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SI_OD</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DI1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DI1</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DI2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DI2</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DI3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DI3</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DI4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DI4</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DI_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[DI_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>DI_OD</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MA1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>MA1</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MA2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>MA2</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MA3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>MA3</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MA4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>MA4</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MA_OD</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[MA_OD]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>MA_OD</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OD_TOT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[OD_TOT]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>OD_TOT</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS1</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS1]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS1</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS2</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS2]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS2</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS3</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS3]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS3</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS4</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS4]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS4</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS5</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS5]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS5</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS6</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS6]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS6</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SNS_TOT</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[SNS_TOT]</local-name>
+            <parent-name>[sns-od - Cleaned.csv]</parent-name>
+            <remote-alias>SNS_TOT</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='As Od' datatype='integer' name='[AS_OD]' role='measure' type='quantitative' />
+      <column caption='Body Satisfaction' datatype='integer' name='[BodySatisfaction]' role='measure' type='quantitative' />
+      <column caption='Province Rank' datatype='integer' name='[Calculation_951385481110056965]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='RANK(COUNTD([Province]))'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Survey Shares' datatype='integer' name='[Calculation_951385481112350726]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='COUNTD([Province (group)])' />
+      </column>
+      <column caption='Da Od' datatype='integer' name='[DA_OD]' role='measure' type='quantitative' />
+      <column caption='Di Od' datatype='integer' name='[DI_OD]' role='measure' type='quantitative' />
+      <column caption='Fam Closeness' datatype='integer' name='[FamCloseness]' role='measure' type='quantitative' />
+      <column caption='In Od' datatype='integer' name='[IN_OD]' role='measure' type='quantitative' />
+      <column caption='Inf Seek' datatype='integer' name='[InfSeek]' role='measure' type='quantitative' />
+      <column caption='Living Apart' datatype='integer' name='[LivingApart]' role='measure' type='quantitative' />
+      <column caption='Ma Od' datatype='integer' name='[MA_OD]' role='measure' type='quantitative' />
+      <column caption='Od Tot' datatype='integer' name='[OD_TOT]' role='measure' type='quantitative' />
+      <column caption='Parentsin Marriage' datatype='integer' name='[ParentsinMarriage]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Province (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+        <calculation class='categorical-bin' column='[Province]' new-bin='true'>
+          <bin default-name='false' value='&quot;Others&quot;'>
+            <value>&quot;Aceh&quot;</value>
+            <value>&quot;Bali&quot;</value>
+            <value>&quot;Bangka Belitung&quot;</value>
+            <value>&quot;Banten&quot;</value>
+            <value>&quot;Bengkulu&quot;</value>
+            <value>&quot;Gorontalo&quot;</value>
+            <value>&quot;Jambi&quot;</value>
+            <value>&quot;Kalimantan Barat&quot;</value>
+            <value>&quot;Kalimantan Selatan&quot;</value>
+            <value>&quot;Kalimantan Tengah&quot;</value>
+            <value>&quot;Kalimantan Timur&quot;</value>
+            <value>&quot;Kalimantan Utara&quot;</value>
+            <value>&quot;Kepulauan Riau&quot;</value>
+            <value>&quot;Lampung&quot;</value>
+            <value>&quot;Maluku&quot;</value>
+            <value>&quot;Maluku Utara&quot;</value>
+            <value>&quot;Nusa Tenggara Barat&quot;</value>
+            <value>&quot;Nusa Tenggara Timur&quot;</value>
+            <value>&quot;Papua&quot;</value>
+            <value>&quot;Papua Barat&quot;</value>
+            <value>&quot;Riau&quot;</value>
+            <value>&quot;Sulawesi Selatan&quot;</value>
+            <value>&quot;Sulawesi Tengah&quot;</value>
+            <value>&quot;Sulawesi Tenggara&quot;</value>
+            <value>&quot;Sulawesi Utara&quot;</value>
+            <value>&quot;Sumatra Barat&quot;</value>
+            <value>&quot;Sumatra Selatan&quot;</value>
+            <value>&quot;Sumatra Utara&quot;</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='S Exp' datatype='integer' name='[SExp]' role='measure' type='quantitative' />
+      <column caption='Si Od' datatype='integer' name='[SI_OD]' role='measure' type='quantitative' />
+      <column caption='Sns1' datatype='integer' name='[SNS1]' role='measure' type='quantitative' />
+      <column caption='Sns2' datatype='integer' name='[SNS2]' role='measure' type='quantitative' />
+      <column caption='Sns3' datatype='integer' name='[SNS3]' role='measure' type='quantitative' />
+      <column caption='Sns4' datatype='integer' name='[SNS4]' role='measure' type='quantitative' />
+      <column caption='Sns5' datatype='integer' name='[SNS5]' role='measure' type='quantitative' />
+      <column caption='Sns6' datatype='integer' name='[SNS6]' role='measure' type='quantitative' />
+      <column caption='Sns Tot' datatype='integer' name='[SNS_TOT]' role='measure' type='quantitative' />
+      <column caption='Ug Tot' datatype='integer' name='[UG_TOT]' role='measure' type='quantitative' />
+      <column datatype='string' name='[Umur (group)]' role='dimension' type='nominal'>
+        <calculation class='categorical-bin' column='[Umur]' new-bin='true'>
+          <bin default-name='false' value='&quot;18-24&quot;'>
+            <value>1</value>
+          </bin>
+          <bin default-name='false' value='&quot;25-39&quot;'>
+            <value>2</value>
+          </bin>
+          <bin default-name='false' value='&quot;39-40&quot;'>
+            <value>3</value>
+          </bin>
+          <bin default-name='false' value='&quot;Under 18&quot;'>
+            <value>0</value>
+          </bin>
+        </calculation>
+      </column>
+      <column datatype='integer' datatype-customized='true' name='[Umur]' role='dimension' type='ordinal' />
+      <column caption='sns-od - Cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]' role='measure' type='quantitative' />
+      <column-instance column='[Umur]' derivation='None' name='[none:Umur:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' object-id='' units='records'>
+        <connection access_mode='readonly' author-locale='en_US' class='hyper' dbname='C:/Users/MUHAMM~1/AppData/Local/Temp/TableauTemp/#TableauTemp_10i1bv10xlxmir1bkd88k0wzdd29.hyper' default-settings='hyper' schema='Extract' sslmode='' tablename='Extract' update-time='03/22/2025 04:29:47 PM' username='tableau_internal_user'>
+          <relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Umur</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Umur]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Umur</remote-alias>
+              <ordinal>0</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Domisili</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Domisili]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Domisili</remote-alias>
+              <ordinal>1</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>171</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Province</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Province]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Province</remote-alias>
+              <ordinal>2</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>32</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Jenis Kelamin</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Jenis Kelamin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Jenis Kelamin</remote-alias>
+              <ordinal>3</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Total Twitter Sekunder</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Total Twitter Sekunder]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Total Twitter Sekunder</remote-alias>
+              <ordinal>4</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter1</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter1</remote-alias>
+              <ordinal>5</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter2</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter2</remote-alias>
+              <ordinal>6</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>6</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter3</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter3</remote-alias>
+              <ordinal>7</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>65</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter4</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter4</remote-alias>
+              <ordinal>8</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter5</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter5</remote-alias>
+              <ordinal>9</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Twitter6</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Twitter6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Twitter6</remote-alias>
+              <ordinal>10</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Private Second Account</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Private Second Account]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Private Second Account</remote-alias>
+              <ordinal>11</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Roleplay Acc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Roleplay Acc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Roleplay Acc</remote-alias>
+              <ordinal>12</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Fake/Spam</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Fake/Spam]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Fake/Spam</remote-alias>
+              <ordinal>13</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Alter Acc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Alter Acc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Alter Acc</remote-alias>
+              <ordinal>14</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>BodySatisfaction</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[BodySatisfaction]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>BodySatisfaction</remote-alias>
+              <ordinal>15</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>FamCloseness</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[FamCloseness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>FamCloseness</remote-alias>
+              <ordinal>16</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>ParentsinMarriage</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[ParentsinMarriage]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>ParentsinMarriage</remote-alias>
+              <ordinal>17</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>LivingApart</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[LivingApart]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>LivingApart</remote-alias>
+              <ordinal>18</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Loneliness</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Loneliness]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Loneliness</remote-alias>
+              <ordinal>19</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>4</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp1</remote-alias>
+              <ordinal>20</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp2</remote-alias>
+              <ordinal>21</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp3</remote-alias>
+              <ordinal>22</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp4</remote-alias>
+              <ordinal>23</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp5</remote-alias>
+              <ordinal>24</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp6</remote-alias>
+              <ordinal>25</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SExp</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SExp]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SExp</remote-alias>
+              <ordinal>26</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>36</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InfSeek1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InfSeek1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InfSeek1</remote-alias>
+              <ordinal>27</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InfSeek2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InfSeek2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InfSeek2</remote-alias>
+              <ordinal>28</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InfSeek3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InfSeek3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InfSeek3</remote-alias>
+              <ordinal>29</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InfSeek4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InfSeek4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InfSeek4</remote-alias>
+              <ordinal>30</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>InfSeek</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[InfSeek]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>InfSeek</remote-alias>
+              <ordinal>31</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>24</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soc1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Soc1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Soc1</remote-alias>
+              <ordinal>32</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soc2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Soc2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Soc2</remote-alias>
+              <ordinal>33</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soc3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Soc3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Soc3</remote-alias>
+              <ordinal>34</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soc4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Soc4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Soc4</remote-alias>
+              <ordinal>35</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Soc</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Soc]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Soc</remote-alias>
+              <ordinal>36</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>22</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Div1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Div1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Div1</remote-alias>
+              <ordinal>37</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Div2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Div2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Div2</remote-alias>
+              <ordinal>38</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Div</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Div]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Div</remote-alias>
+              <ordinal>39</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>13</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>UG_TOT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[UG_TOT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>UG_TOT</remote-alias>
+              <ordinal>40</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>76</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DA1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DA1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DA1</remote-alias>
+              <ordinal>41</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DA2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DA2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DA2</remote-alias>
+              <ordinal>42</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DA3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DA3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DA3</remote-alias>
+              <ordinal>43</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DA4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DA4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DA4</remote-alias>
+              <ordinal>44</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DA_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DA_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DA_OD</remote-alias>
+              <ordinal>45</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN1</remote-alias>
+              <ordinal>46</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN2</remote-alias>
+              <ordinal>47</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN3</remote-alias>
+              <ordinal>48</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN4</remote-alias>
+              <ordinal>49</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN5</remote-alias>
+              <ordinal>50</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>IN_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[IN_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>IN_OD</remote-alias>
+              <ordinal>51</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>31</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AS1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AS1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AS1</remote-alias>
+              <ordinal>52</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AS2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AS2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AS2</remote-alias>
+              <ordinal>53</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AS3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AS3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AS3</remote-alias>
+              <ordinal>54</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>AS_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[AS_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>AS_OD</remote-alias>
+              <ordinal>55</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>19</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SI1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SI1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SI1</remote-alias>
+              <ordinal>56</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SI2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SI2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SI2</remote-alias>
+              <ordinal>57</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SI3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SI3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SI3</remote-alias>
+              <ordinal>58</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SI_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SI_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SI_OD</remote-alias>
+              <ordinal>59</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>17</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DI1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DI1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DI1</remote-alias>
+              <ordinal>60</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DI2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DI2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DI2</remote-alias>
+              <ordinal>61</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DI3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DI3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DI3</remote-alias>
+              <ordinal>62</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DI4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DI4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DI4</remote-alias>
+              <ordinal>63</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>DI_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[DI_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>DI_OD</remote-alias>
+              <ordinal>64</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MA1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MA1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MA1</remote-alias>
+              <ordinal>65</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MA2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MA2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MA2</remote-alias>
+              <ordinal>66</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MA3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MA3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MA3</remote-alias>
+              <ordinal>67</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MA4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MA4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MA4</remote-alias>
+              <ordinal>68</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>MA_OD</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[MA_OD]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>MA_OD</remote-alias>
+              <ordinal>69</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>OD_TOT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[OD_TOT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>OD_TOT</remote-alias>
+              <ordinal>70</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>111</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS1</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS1]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS1</remote-alias>
+              <ordinal>71</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS2</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS2]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS2</remote-alias>
+              <ordinal>72</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS3</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS3]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS3</remote-alias>
+              <ordinal>73</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS4</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS4]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS4</remote-alias>
+              <ordinal>74</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS5</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS5]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS5</remote-alias>
+              <ordinal>75</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS6</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS6]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS6</remote-alias>
+              <ordinal>76</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>SNS_TOT</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[SNS_TOT]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>SNS_TOT</remote-alias>
+              <ordinal>77</ordinal>
+              <family>sns-od - Cleaned.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>25</approx-count>
+              <contains-null>true</contains-null>
+              <object-id>[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]</object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:Umur:ok]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>0</bucket>
+            </map>
+            <map to='#b07aa1'>
+              <bucket>2</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>1</bucket>
+            </map>
+            <map to='#ff9da7'>
+              <bucket>3</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[Umur (group)]' palette='sf_color_safe' type='palette'>
+            <map to='#08916d'>
+              <bucket>&quot;18-24&quot;</bucket>
+            </map>
+            <map to='#529ee0'>
+              <bucket>&quot;39-40&quot;</bucket>
+            </map>
+            <map to='#d9a6c2'>
+              <bucket>&quot;25-39&quot;</bucket>
+            </map>
+            <map to='#f59b00'>
+              <bucket>&quot;Under 18&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Indonesia&quot;' />
+      </semantic-values>
+      <object-graph>
+        <objects>
+          <object caption='sns-od - Cleaned.csv' id='sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240'>
+            <properties context=''>
+              <relation connection='textscan.07vcdks15hfxov14n4xf11scwpa2' name='sns-od - Cleaned.csv' table='[sns-od - Cleaned#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='Umur' ordinal='0' />
+                  <column datatype='string' name='Domisili' ordinal='1' />
+                  <column datatype='string' name='Province' ordinal='2' />
+                  <column datatype='integer' name='Jenis Kelamin' ordinal='3' />
+                  <column datatype='integer' name='Total Twitter Sekunder' ordinal='4' />
+                  <column datatype='string' name='Twitter1' ordinal='5' />
+                  <column datatype='string' name='Twitter2' ordinal='6' />
+                  <column datatype='string' name='Twitter3' ordinal='7' />
+                  <column datatype='string' name='Twitter4' ordinal='8' />
+                  <column datatype='string' name='Twitter5' ordinal='9' />
+                  <column datatype='string' name='Twitter6' ordinal='10' />
+                  <column datatype='integer' name='Private Second Account' ordinal='11' />
+                  <column datatype='integer' name='Roleplay Acc' ordinal='12' />
+                  <column datatype='integer' name='Fake/Spam' ordinal='13' />
+                  <column datatype='integer' name='Alter Acc' ordinal='14' />
+                  <column datatype='integer' name='BodySatisfaction' ordinal='15' />
+                  <column datatype='integer' name='FamCloseness' ordinal='16' />
+                  <column datatype='integer' name='ParentsinMarriage' ordinal='17' />
+                  <column datatype='integer' name='LivingApart' ordinal='18' />
+                  <column datatype='integer' name='Loneliness' ordinal='19' />
+                  <column datatype='integer' name='SExp1' ordinal='20' />
+                  <column datatype='integer' name='SExp2' ordinal='21' />
+                  <column datatype='integer' name='SExp3' ordinal='22' />
+                  <column datatype='integer' name='SExp4' ordinal='23' />
+                  <column datatype='integer' name='SExp5' ordinal='24' />
+                  <column datatype='integer' name='SExp6' ordinal='25' />
+                  <column datatype='integer' name='SExp' ordinal='26' />
+                  <column datatype='integer' name='InfSeek1' ordinal='27' />
+                  <column datatype='integer' name='InfSeek2' ordinal='28' />
+                  <column datatype='integer' name='InfSeek3' ordinal='29' />
+                  <column datatype='integer' name='InfSeek4' ordinal='30' />
+                  <column datatype='integer' name='InfSeek' ordinal='31' />
+                  <column datatype='integer' name='Soc1' ordinal='32' />
+                  <column datatype='integer' name='Soc2' ordinal='33' />
+                  <column datatype='integer' name='Soc3' ordinal='34' />
+                  <column datatype='integer' name='Soc4' ordinal='35' />
+                  <column datatype='integer' name='Soc' ordinal='36' />
+                  <column datatype='integer' name='Div1' ordinal='37' />
+                  <column datatype='integer' name='Div2' ordinal='38' />
+                  <column datatype='integer' name='Div' ordinal='39' />
+                  <column datatype='integer' name='UG_TOT' ordinal='40' />
+                  <column datatype='integer' name='DA1' ordinal='41' />
+                  <column datatype='integer' name='DA2' ordinal='42' />
+                  <column datatype='integer' name='DA3' ordinal='43' />
+                  <column datatype='integer' name='DA4' ordinal='44' />
+                  <column datatype='integer' name='DA_OD' ordinal='45' />
+                  <column datatype='integer' name='IN1' ordinal='46' />
+                  <column datatype='integer' name='IN2' ordinal='47' />
+                  <column datatype='integer' name='IN3' ordinal='48' />
+                  <column datatype='integer' name='IN4' ordinal='49' />
+                  <column datatype='integer' name='IN5' ordinal='50' />
+                  <column datatype='integer' name='IN_OD' ordinal='51' />
+                  <column datatype='integer' name='AS1' ordinal='52' />
+                  <column datatype='integer' name='AS2' ordinal='53' />
+                  <column datatype='integer' name='AS3' ordinal='54' />
+                  <column datatype='integer' name='AS_OD' ordinal='55' />
+                  <column datatype='integer' name='SI1' ordinal='56' />
+                  <column datatype='integer' name='SI2' ordinal='57' />
+                  <column datatype='integer' name='SI3' ordinal='58' />
+                  <column datatype='integer' name='SI_OD' ordinal='59' />
+                  <column datatype='integer' name='DI1' ordinal='60' />
+                  <column datatype='integer' name='DI2' ordinal='61' />
+                  <column datatype='integer' name='DI3' ordinal='62' />
+                  <column datatype='integer' name='DI4' ordinal='63' />
+                  <column datatype='integer' name='DI_OD' ordinal='64' />
+                  <column datatype='integer' name='MA1' ordinal='65' />
+                  <column datatype='integer' name='MA2' ordinal='66' />
+                  <column datatype='integer' name='MA3' ordinal='67' />
+                  <column datatype='integer' name='MA4' ordinal='68' />
+                  <column datatype='integer' name='MA_OD' ordinal='69' />
+                  <column datatype='integer' name='OD_TOT' ordinal='70' />
+                  <column datatype='integer' name='SNS1' ordinal='71' />
+                  <column datatype='integer' name='SNS2' ordinal='72' />
+                  <column datatype='integer' name='SNS3' ordinal='73' />
+                  <column datatype='integer' name='SNS4' ordinal='74' />
+                  <column datatype='integer' name='SNS5' ordinal='75' />
+                  <column datatype='integer' name='SNS6' ordinal='76' />
+                  <column datatype='integer' name='SNS_TOT' ordinal='77' />
+                  <column datatype='string' name='F79' ordinal='78' />
+                  <column datatype='string' name='F80' ordinal='79' />
+                  <column datatype='string' name='F81' ordinal='80' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Hebat'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Top 5 Province Distribution</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='sns-od - Cleaned' name='federated.0y5te4t0lh8nr916dv4ds0n8zaxe' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y5te4t0lh8nr916dv4ds0n8zaxe'>
+            <column datatype='string' name='[Province (group)]' role='dimension' semantic-role='[State].[Name]' type='nominal'>
+              <calculation class='categorical-bin' column='[Province]' new-bin='true'>
+                <bin default-name='false' value='&quot;Others&quot;'>
+                  <value>&quot;Aceh&quot;</value>
+                  <value>&quot;Bali&quot;</value>
+                  <value>&quot;Bangka Belitung&quot;</value>
+                  <value>&quot;Banten&quot;</value>
+                  <value>&quot;Bengkulu&quot;</value>
+                  <value>&quot;Gorontalo&quot;</value>
+                  <value>&quot;Jambi&quot;</value>
+                  <value>&quot;Kalimantan Barat&quot;</value>
+                  <value>&quot;Kalimantan Selatan&quot;</value>
+                  <value>&quot;Kalimantan Tengah&quot;</value>
+                  <value>&quot;Kalimantan Timur&quot;</value>
+                  <value>&quot;Kalimantan Utara&quot;</value>
+                  <value>&quot;Kepulauan Riau&quot;</value>
+                  <value>&quot;Lampung&quot;</value>
+                  <value>&quot;Maluku&quot;</value>
+                  <value>&quot;Maluku Utara&quot;</value>
+                  <value>&quot;Nusa Tenggara Barat&quot;</value>
+                  <value>&quot;Nusa Tenggara Timur&quot;</value>
+                  <value>&quot;Papua&quot;</value>
+                  <value>&quot;Papua Barat&quot;</value>
+                  <value>&quot;Riau&quot;</value>
+                  <value>&quot;Sulawesi Selatan&quot;</value>
+                  <value>&quot;Sulawesi Tengah&quot;</value>
+                  <value>&quot;Sulawesi Tenggara&quot;</value>
+                  <value>&quot;Sulawesi Utara&quot;</value>
+                  <value>&quot;Sumatra Barat&quot;</value>
+                  <value>&quot;Sumatra Selatan&quot;</value>
+                  <value>&quot;Sumatra Utara&quot;</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='string' name='[Province]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+            <column datatype='string' name='[Umur (group)]' role='dimension' type='nominal'>
+              <calculation class='categorical-bin' column='[Umur]' new-bin='true'>
+                <bin default-name='false' value='&quot;18-24&quot;'>
+                  <value>1</value>
+                </bin>
+                <bin default-name='false' value='&quot;25-39&quot;'>
+                  <value>2</value>
+                </bin>
+                <bin default-name='false' value='&quot;39-40&quot;'>
+                  <value>3</value>
+                </bin>
+                <bin default-name='false' value='&quot;Under 18&quot;'>
+                  <value>0</value>
+                </bin>
+              </calculation>
+            </column>
+            <column datatype='integer' datatype-customized='true' name='[Umur]' role='dimension' type='ordinal' />
+            <column-instance column='[__tableau_internal_object_id__].[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]' derivation='Count' name='[__tableau_internal_object_id__].[cnt:sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240:qk]' pivot='key' type='quantitative' />
+            <column caption='sns-od - Cleaned.csv' datatype='table' name='[__tableau_internal_object_id__].[sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240]' role='measure' type='quantitative' />
+            <column-instance column='[Province]' derivation='None' name='[none:Province:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <manual-sort column='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Umur (group)]' direction='ASC'>
+            <dictionary>
+              <bucket>&quot;39-40&quot;</bucket>
+              <bucket>&quot;25-39&quot;</bucket>
+              <bucket>&quot;18-24&quot;</bucket>
+              <bucket>&quot;Under 18&quot;</bucket>
+            </dictionary>
+          </manual-sort>
+          <filter class='categorical' column='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[none:Province:nk]'>
+            <groupfilter function='level-members' level='[none:Province:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Province (group)]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[__tableau_internal_object_id__].[cnt:sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240:qk]' shelf='columns' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[none:Province:nk]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='cell'>
+            <format attr='color' value='#d4d4d4' />
+            <format attr='color' data-class='total' value='#f1ce63' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='color' data-class='total' value='#f28e2b' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='7' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Umur (group)]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='size' value='1.9890055656433105' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[__tableau_internal_object_id__].[cnt:sns-od - Cleaned.csv_66B0EF96C82C4469961F1512A7F25240:qk]</rows>
+        <cols>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Province (group)]</cols>
+      </table>
+      <simple-id uuid='{325688B2-32D4-425F-91D2-1C4F72F661F7}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' show-side-pane='false' source-height='37'>
+    <window class='worksheet' maximized='true' name='Hebat' tab-color='#f66273'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card param='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[none:Province:nk]' type='filter' />
+            <card pane-specification-id='7' param='[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Umur (group)]' type='color' />
+            <card AVG='true' KURTOSIS='false' MAX='true' MEDIAN='true' MIN='true' QUART1='false' QUART3='false' SKEWNESS='false' STDEV='false' SUM='true' type='summary' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+        <highlight>
+          <color-one-way>
+            <field>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Province (group)]</field>
+            <field>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[Umur (group)]</field>
+            <field>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[cnt:Calculation_951385481089609728:qk]</field>
+            <field>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[io:Umur Set:nk]</field>
+            <field>[federated.0y5te4t0lh8nr916dv4ds0n8zaxe].[none:Province:nk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{374840D7-302A-41EC-91BD-D2A196BA4BC9}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Hebat' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
